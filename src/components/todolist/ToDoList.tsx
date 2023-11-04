@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { RootType, UseAppDispatch } from '../../redux/store.ts';
 import { addItem, item, removeItem, reWriteItem, setCategoryItem } from '../../redux/itemSlice.ts';
 
-import addLogo from '../../assets/add-icon.jpg';
+import addLogo from '../../assets/add-icon.png';
 import confirmLogo from '../../assets/CONFIRM.png';
 import indicatorLogo from '../../assets/indicator.png';
 import deleteLogo from '../../assets/remove-icon.png';
