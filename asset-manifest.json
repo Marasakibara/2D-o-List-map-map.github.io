@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Marasakibara/2D-o-List-map-map.github.io/static/css/main.5c2fe416.css",
+    "main.js": "/Marasakibara/2D-o-List-map-map.github.io/static/js/main.028a1091.js",
+    "static/media/logo2D.jpg": "/Marasakibara/2D-o-List-map-map.github.io/static/media/logo2D.b102dd661e6f67712437.jpg",
+    "static/media/add-icon.jpg": "/Marasakibara/2D-o-List-map-map.github.io/static/media/add-icon.e4815d03c44b877ac9b0.jpg",
+    "static/media/rewrite-icon.png": "/Marasakibara/2D-o-List-map-map.github.io/static/media/rewrite-icon.fa80d1ef9d2496c45f7a.png",
+    "static/media/remove-icon.png": "/Marasakibara/2D-o-List-map-map.github.io/static/media/remove-icon.6113071412906ba1bb21.png",
+    "static/media/CONFIRM.png": "/Marasakibara/2D-o-List-map-map.github.io/static/media/CONFIRM.4b8537e89263518fab7c.png",
+    "index.html": "/Marasakibara/2D-o-List-map-map.github.io/index.html",
+    "main.5c2fe416.css.map": "/Marasakibara/2D-o-List-map-map.github.io/static/css/main.5c2fe416.css.map",
+    "main.028a1091.js.map": "/Marasakibara/2D-o-List-map-map.github.io/static/js/main.028a1091.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c2fe416.css",
+    "static/js/main.028a1091.js"
+  ]
+}
