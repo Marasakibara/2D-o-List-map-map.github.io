@@ -1,0 +1,280 @@
+.tdl {
+  background-color: #282c34;
+  min-height: 1160px;
+  height: calc(800px + 95vh);
+  max-height: calc(1160px + 0vh);
+  color: white;
+  @media (max-height: 950px) {
+    min-height: calc(100px +100vh);
+  }
+  @media (max-width: 354px) {
+    min-width: 354px;
+    max-width: 100%;
+  }
+}
+.Panel {
+  align-items: center;
+  position: absolute;
+  left: 30%;
+  width: 800px;
+  max-width: calc(47%);
+  .buttonimg {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(125, 194, 21);
+    border-radius: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .inputTitle {
+    max-width: 800px;
+    height: auto;
+    width: 100%;
+    font-size: 40px;
+    position: absolute;
+    background-color: #282c34;
+    color: white;
+  }
+  .inputText {
+    margin-top: 52px;
+    height: auto;
+    width: 100%;
+    left: 300px;
+    font-size: 30px;
+    background-color: #282c34;
+    color: white;
+  }
+  .panelMode {
+    font-size: 30px;
+  }
+  .errorPanel {
+    color: red;
+    .errorPanelConfirm {
+      bottom: -6px;
+      position: relative;
+      left: 10px;
+      width: 30px;
+      height: 30px;
+      background-color: black;
+      border-radius: 20px;
+      &:hover {
+        cursor: pointer;
+        background-color: wheat;
+      }
+    }
+  }
+  @media (max-width: 900px) {
+    position: sticky;
+    left: 9%;
+    right: 10%;
+    width: 80%;
+    max-width: calc(80%);
+    text-align: center;
+  }
+}
+.title-List {
+  margin-top: -20px;
+  position: absolute;
+  top: 145px;
+  left: 3%;
+  font-size: 30px;
+  align-items: center;
+  @media (max-width: 900px) {
+    right: 0%;
+    position: absolute;
+    margin-top: 110px;
+  }
+  @media (max-width: 384px) {
+    margin-top: 150px;
+  }
+  @media (max-width: 600px) {
+    font-size: 15px;
+  }
+  .addimg {
+    position: absolute;
+    min-width: 30px;
+    min-height: 30px;
+    width: 7vh;
+    height: 7vh;
+    border-radius: 100px;
+    top: -3px;
+    left: 0px;
+    &:hover {
+      cursor: pointer;
+    }
+    .title-item {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    @media (max-width: 1000px) {
+      top: -3px;
+      left: 10px;
+    }
+  }
+  .item {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .removeItemimg {
+    bottom: -3px;
+    position: relative;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 20px;
+    &:hover {
+      cursor: pointer;
+      background-color: wheat;
+    }
+  }
+  .searchBlock {
+    left: 100px;
+    position: relative;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    width: 100px;
+    border-radius: 100px;
+    font-size: 25px;
+    padding-left: 10px;
+    transition: all 0.2s ease-in-out;
+    background-color: #282c34;
+
+    color: white;
+    &:focus {
+      border: 2px solid rgba(255, 255, 255, 2);
+      width: 150px;
+    }
+    &:hover {
+      border: 2px solid rgba(255, 255, 255, 2);
+      width: 150px;
+    }
+    @media (max-width: 1270px) {
+      left: 0;
+    }
+    @media (max-width: 900px) {
+      left: 0px;
+      width: 150px;
+      margin-right: 0px;
+      margin-left: 0vw;
+      &:focus {
+        border: 2px solid rgba(255, 255, 255, 2);
+        width: 200px;
+      }
+      &:hover {
+        border: 2px solid rgba(255, 255, 255, 2);
+        width: 200px;
+      }
+    }
+    @media (max-width: 450px) {
+      width: 100px;
+      margin-right: 100px;
+      left: 100px;
+      position: relative;
+      margin-left: 40vw;
+      &:focus {
+        border: 2px solid rgba(255, 255, 255, 2);
+        width: 100px;
+      }
+      &:hover {
+        border: 2px solid rgba(255, 255, 255, 2);
+        width: 100px;
+      }
+    }
+  }
+  .categories {
+    align-items: center;
+    position: relative;
+    width: 300px;
+    left: 0%;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    font-size: 30px;
+    @media (max-width: 900px) {
+    }
+    .listCategoies {
+      list-style-type: none;
+
+      .itemCategoies {
+        color: black;
+        border-radius: 5px;
+
+        cursor: pointer;
+        &:hover {
+          color: red;
+        }
+        &:active {
+          color: gold;
+        }
+      }
+    }
+  }
+  .indicatorActive {
+    position: relative;
+    width: 30px;
+    top: 3px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 1px;
+    border-radius: 100px;
+    background-color: green;
+    &:hover {
+      cursor: pointer;
+    }
+    &:active {
+      background-color: red;
+    }
+  }
+  .indicatorCompleted {
+    position: relative;
+    width: 30px;
+    top: 3px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 1px;
+    border-radius: 100px;
+    background-color: red;
+    &:hover {
+      cursor: pointer;
+    }
+    &:active {
+      background-color: green;
+    }
+  }
+  .items-scrollbar {
+    height: 550px;
+    margin: 30px auto;
+    box-shadow: 0 0 2px gray;
+    padding: 20px;
+    overflow-y: scroll;
+    @media (max-width: 600px) {
+      width: 300px;
+    }
+  }
+  .items-scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  /* Define the thumb style */
+  .items-scrollbar::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom right, #000000 0%, #000000 100%);
+    border-radius: 5px;
+  }
+
+  /* Define the track style */
+  .items-scrollbar::-webkit-scrollbar-track {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+  }
+
+  /* Define the button style */
+  .items-scrollbar::-webkit-scrollbar-button {
+    background-color: #0b111f;
+    border-radius: 5px;
+  }
+
+  /* Define the button style when being hovered over */
+}

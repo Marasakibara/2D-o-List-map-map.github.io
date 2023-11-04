@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #b8b9bd;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  color: #15171a;
+  .mainlogo {
+    position: absolute;
+    min-width: 50px;
+    min-height: 50px;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100px;
+    right: 1250px;
+    &:hover {
+      cursor: pointer;
+    }
+    @media (max-width: 1360px) {
+      left: 0px;
+    }
+    @media (max-width: 540px) {
+      min-width: 35px;
+      min-height: 35px;
+    }
+  }
+  @media (max-width: 540px) {
+    font-size: 25px;
+    text-align: right;
+  }
+  @media (max-width: 330px) {
+    font-size: 20px;
+    min-width: 354px;
+    max-width: 100%;
+  }
+}
+
+.App-home {
+  background-color: red;
+  min-height: 100vh;
+}
